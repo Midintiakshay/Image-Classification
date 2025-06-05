@@ -1,6 +1,6 @@
 # P1-Image-Classification-by-Machine-Learning
 
-I have done this project to classify images by using CNNmodel and Pre Trained Mobile Net model. I created the streamlit app for the same.
+I have designed this project to classify images by using CNNmodel and Pre Trained MobileNet model. I created the streamlit app for it.
 
 
 ## How to run the code
