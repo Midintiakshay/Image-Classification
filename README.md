@@ -5,7 +5,7 @@ I have done this project to classify images by using CNNmodel and Pre Trained Mo
 
 ## How to run the code
 streamlit run app.py
-\n
+
 http://localhost:8501/
 
 
