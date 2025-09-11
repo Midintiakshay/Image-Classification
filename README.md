@@ -8,6 +8,3 @@ streamlit run app.py
 
 localhost:8501
 
-
-
-### Ack
