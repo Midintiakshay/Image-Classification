@@ -5,8 +5,7 @@ I have designed this project to classify images by using CNNmodel and Pre Traine
 
 ## How to run the code
 streamlit run app.py
-
-http://localhost:8501/
+localhost:8501
 
 
 
