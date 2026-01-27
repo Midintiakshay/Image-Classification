@@ -9,5 +9,5 @@ streamlit run app.py
 localhost:8501
 
 
-## Website Live
+## Live
  https://image-classification-m.streamlit.app/
