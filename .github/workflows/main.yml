@@ -2,19 +2,15 @@ name: Keep Streamlit App Awake
 
 on:
   schedule:
-    # Runs every 10 minutes
-    - cron: "*/10 * * * *"
+    # Runs every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
   ping_app:
-    # FIX: Use 'runs-on' (dash), not 'runs_on' (underscore)
     runs-on: ubuntu-latest
     
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
-
-      - name: Ping the App URL
-        # Your specific app URL is below
-        run: curl -I https://image-classification-m.streamlit.app/
+      - name: Ping the App Health Endpoint
+        # This targets the hidden health check to properly reset the sleep timer
+        run: curl -L https://image-classification-m.streamlit.app/_stcore/health
